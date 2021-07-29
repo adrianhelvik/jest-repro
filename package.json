@@ -1,0 +1,17 @@
+{
+  "name": "jest-repro",
+  "version": "1.0.0",
+  "main": "src/index.mjs",
+  "author": "Adrian Helvik <adrian.helvik@specifique.no>",
+  "license": "MIT",
+  "scripts": {},
+  "devDependencies": {
+    "jest": "^27.0.0-next.11"
+  },
+  "jest": {
+    "moduleFileExtensions": ["js", "mjs"],
+    "transform": {},
+    "testRegex": "\\.spec\\.mjs$",
+    "setupFiles": ["<rootDir>/src/testSetup/beforeEnv.mjs"]
+  }
+}
